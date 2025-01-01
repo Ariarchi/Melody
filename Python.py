@@ -8,7 +8,7 @@ API_TOKEN = '8036311859:AAE7m4dxXLV5E4mjuOZD4s24HcRluylrvLc'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Подключение к базе данных PostgreSQL
-DB_URL = "ВАШ_АДРЕС_БАЗЫ_ДАННЫХ_ИЗ_RAILWAY"
+DB_URL = "postgresql://postgres:YfGwvFlshmeByqXNizSyKqDDCnSBSCHN@autorack.proxy.rlwy.net:20268/railway"
 connection = psycopg2.connect(DB_URL)
 cursor = connection.cursor()
 
