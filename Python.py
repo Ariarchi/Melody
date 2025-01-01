@@ -4,7 +4,7 @@ import psycopg2
 from psycopg2 import sql
 
 # Токен вашего бота
-API_TOKEN = 'ВАШ_ТОКЕН_ОТ_BOTFATHER'
+API_TOKEN = '8036311859:AAE7m4dxXLV5E4mjuOZD4s24HcRluylrvLc'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Подключение к базе данных PostgreSQL
